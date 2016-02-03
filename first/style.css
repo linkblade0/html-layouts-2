@@ -1,0 +1,126 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+.left {
+  width: 30%;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  background: red;
+}
+.left:after {
+  content: "";
+  display: block;
+  padding-bottom: 50%
+}
+.center {
+  width: 30%;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  background: blue;
+}
+.center:after {
+  content: "";
+  display: block;
+  padding-bottom: 50%
+}
+.right {
+  width: 30%;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  background: grey;
+}
+.right:after {
+  content: "";
+  display: block;
+  padding-bottom: 50%
+}
+h3 {
+  padding-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  float: left;
+}
+#more {
+  float: left;
+  margin-top: -25px;
+}
+.smaller {
+  width: 30%;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  background: red;
+}
+.smaller:after {
+  content: "";
+  display: block;
+  padding-bottom: 125%
+}
+.bigger {
+  width: 65%;
+  float: left;
+  margin-top: 25px;
+  background: blue;
+}
+.bigger:after {
+  content: "";
+  display: block;
+  padding-bottom: 57.75%
+}
+
+.core {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  background: blue;
+  width: 63%;
+  float: left;
+}
+.core:after {
+  content: "";
+  display: block;
+  padding-bottom: 25%;
+}
+.red_left {
+  margin-top: 25px;
+  background: red;
+  width: 3%;
+  float: left;
+  margin-top: 25px;
+}
+.red_left:after {
+  content: "";
+  display: block;
+  padding-bottom: 525%
+}
+.grey {
+  margin-top: 25px;
+  background: grey;
+  float: left;
+  width:26%;
+}
+.grey:after {
+  content: "";
+  display: block;
+  padding-bottom: 60.5%;
+}
+.red_right {
+  margin-top: 25px;
+  background: red;
+  width: 3%;
+  float: left;
+}
+.red_right:after {
+  content: "";
+  display: block;
+  padding-bottom: 525%
+}
