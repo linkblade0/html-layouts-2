@@ -1,0 +1,111 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+main {
+  background: grey;
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+}
+.top {
+  background: white;
+  width: 80%;
+  padding-top: 50px;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+.top:after {
+  content: "";
+  display: block;
+  padding-bottom: 25%;
+}
+.bottom {
+  background: white;
+  width: 80%;
+  padding-top: 50px;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+.bottom:after {
+  content: "";
+  display: block;
+  padding-bottom: 75%;
+}
+.text {
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.button1 {
+   background-color: red;
+   border: none;
+   color: white;
+   padding: 5% 10%;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 50px;
+   margin: 60px 5%;
+   cursor: pointer;
+   float: left;
+}
+.button2 {
+   background-color: blue;
+   border: none;
+   color: white;
+   padding: 5% 10%;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 50px;
+   margin: 60px 5%;
+   cursor: pointer;
+   float: left;
+   margin-left: -1%;
+}
+img {
+  width: 90%;
+  height: 60%;
+  margin: 5% 5% 5% 5%;
+}
+footer {
+  background: black;
+  float: left;
+  width: 100%;
+}
+footer:after {
+  content: "";
+  display: block;
+  padding-top: 5%
+}
+#google {
+  float: right;
+  color: white;
+  margin-top: 2%;
+  margin-right: 3%;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#apple {
+  float: right;
+  color: white;
+  margin-top: 2%;
+  margin-right: 3%;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
